@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BizPlan Expert — финансовый аналитик, бизнес-планы и финмодели</title>
+  <meta name="description" content="30 лет опыта в банках, инвесткомпаниях и агрохолдингах. Бизнес-планы, финансовые модели, инвестпрезентации, AI-ассистенты для бизнеса и финансовый консалтинг.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- HEADER -->
+<header class="header" id="header">
+  <div class="container header__inner">
+    <a href="#" class="logo">
+      <span class="logo__icon">
+        <svg width="32" height="32" viewBox="0 0 32 32" fill="none"><rect width="32" height="32" rx="8" fill="#10293f"/><path d="M8 23V17M14 23V13M20 23V16M26 23V9" stroke="#0f8a72" stroke-width="2.4" stroke-linecap="round"/></svg>
+      </span>
+      <span class="logo__text">BizPlan<span class="logo__accent">Expert</span></span>
+    </a>
+    <nav class="nav" id="nav">
+      <a href="#services">Услуги</a>
+      <a href="#price">Прайс</a>
+      <a href="#process">Процесс</a>
+      <a href="#about">Об эксперте</a>
+      <a href="#faq">FAQ</a>
+      <a href="#contacts">Контакты</a>
+    </nav>
+    <a href="https://t.me/Black_Box_Biz" class="header__phone" target="_blank" rel="noopener">@Black_Box_Biz</a>
+    <a href="#form" class="btn btn--primary header__cta"><span>Обсудить задачу</span></a>
+    <button class="burger" id="burger" aria-label="Меню">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero" id="home">
+  <div class="container hero__inner">
+    <div class="hero__content">
+      <div class="hero__badge">Финансовый аналитик · 30 лет опыта</div>
+      <h1 class="hero__title">Превращаю цифры вашего бизнеса<br><span class="accent">в работающий план роста</span></h1>
+      <p class="hero__sub">30 лет в банках, инвестиционных компаниях и агрохолдингах. Делаю бизнес-планы, финансовые модели и инвестпрезентации, которые выдерживают вопросы банка и инвестора — а не ложатся в стол.</p>
+      <div class="hero__btns">
+        <a href="#form" class="btn btn--primary btn--lg">Обсудить задачу</a>
+        <a href="#services" class="btn btn--outline btn--lg">Смотреть услуги</a>
+      </div>
+      <div class="hero__stats">
+        <div class="stat">
+          <span class="stat__num" data-target="30">0</span>
+          <span class="stat__lbl">лет в финансах</span>
+        </div>
+        <div class="stat">
+          <span class="stat__num" data-target="3">0</span>
+          <span class="stat__lbl">отрасли опыта: банки · инвестиции · агрохолдинги</span>
+        </div>
+        <div class="stat">
+          <span class="stat__num" data-target="5">0</span>
+          <span class="stat__lbl">направлений услуг под ключ</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero__card">
+      <div class="hero__card-title">Что вы получите на первой встрече</div>
+      <ul class="hero__card-list">
+        <li>
+          <svg width="20" height="20" viewBox="0 0 20 20"><circle cx="10" cy="10" r="10" fill="#e3f5f0"/><path d="M6 10l3 3 5-5" stroke="#0f8a72" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          Разбор вашей финансовой ситуации
+        </li>
+        <li>
+          <svg width="20" height="20" viewBox="0 0 20 20"><circle cx="10" cy="10" r="10" fill="#e3f5f0"/><path d="M6 10l3 3 5-5" stroke="#0f8a72" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          Понимание, что нужно: бизнес-план, финмодель или консалтинг
+        </li>
+        <li>
+          <svg width="20" height="20" viewBox="0 0 20 20"><circle cx="10" cy="10" r="10" fill="#e3f5f0"/><path d="M6 10l3 3 5-5" stroke="#0f8a72" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          Ориентировочная стоимость и сроки
+        </li>
+        <li>
+          <svg width="20" height="20" viewBox="0 0 20 20"><circle cx="10" cy="10" r="10" fill="#e3f5f0"/><path d="M6 10l3 3 5-5" stroke="#0f8a72" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          Персональные рекомендации без общих фраз
+        </li>
+      </ul>
+      <a href="#form" class="btn btn--primary btn--block">Записаться на консультацию</a>
+      <p class="hero__card-note">Первая встреча — 30 минут, бесплатно</p>
+    </div>
+  </div>
+</section>
+
+<!-- ПРЕИМУЩЕСТВА -->
+<section class="advantages" id="advantages">
+  <div class="container">
+    <h2 class="section-title">Почему обращаются ко мне</h2>
+    <p class="section-sub">30 лет по обе стороны стола: сначала оценивал чужие проекты в банках и инвесткомпаниях, теперь помогаю бизнесу делать проекты, которые проходят такую оценку.</p>
+    <div class="adv-grid">
+      <div class="adv">
+        <div class="adv__icon">
+          <svg width="40" height="40" viewBox="0 0 40 40" fill="none"><rect width="40" height="40" rx="10" fill="#e3f5f0"/><path d="M10 28V18M17 28V12M24 28V16M30 28V8" stroke="#0f8a72" stroke-width="2.6" stroke-linecap="round"/></svg>
+        </div>
+        <h3>Взгляд банка и инвестора</h3>
+        <p>30 лет в банках и инвесткомпаниях — знаю, на какие цифры смотрят те, кто принимает решение о деньгах, и как выдержать их вопросы.</p>
+      </div>
+      <div class="adv">
+        <div class="adv__icon">
+          <svg width="40" height="40" viewBox="0 0 40 40" fill="none"><rect width="40" height="40" rx="10" fill="#e3f5f0"/><path d="M10 26c4-10 8-14 10-14s6 4 10 14" stroke="#0f8a72" stroke-width="2.2" stroke-linecap="round" fill="none"/><circle cx="20" cy="16" r="2.4" fill="#0f8a72"/></svg>
+        </div>
+        <h3>Опыт в агрохолдингах</h3>
+        <p>Понимаю специфику реального сектора: сезонность, субсидии, длинные производственные циклы — не только теорию из учебника.</p>
+      </div>
+      <div class="adv">
+        <div class="adv__icon">
+          <svg width="40" height="40" viewBox="0 0 40 40" fill="none"><rect width="40" height="40" rx="10" fill="#e3f5f0"/><circle cx="20" cy="20" r="9" stroke="#0f8a72" stroke-width="2"/><path d="M20 15v5l3.5 2" stroke="#0f8a72" stroke-width="2" stroke-linecap="round"/></svg>
+        </div>
+        <h3>AI ускоряет работу</h3>
+        <p>Использую собственные AI-инструменты для расчётов и презентаций — быстрее и дешевле для вас без потери качества.</p>
+      </div>
+      <div class="adv">
+        <div class="adv__icon">
+          <svg width="40" height="40" viewBox="0 0 40 40" fill="none"><rect width="40" height="40" rx="10" fill="#e3f5f0"/><path d="M11 27l6-9 4 5 4-6 6 10H11z" fill="#0f8a72" opacity=".85"/></svg>
+        </div>
+        <h3>Не шаблон, а рабочий документ</h3>
+        <p>Бизнес-план и финмодель, которые выдержат вопросы банка, фонда поддержки предпринимательства или частного инвестора.</p>
+      </div>
+      <div class="adv">
+        <div class="adv__icon">
+          <svg width="40" height="40" viewBox="0 0 40 40" fill="none"><rect width="40" height="40" rx="10" fill="#e3f5f0"/><path d="M13 27l7-14 7 14" stroke="#0f8a72" stroke-width="2" stroke-linejoin="round"/><path d="M15.5 22h9" stroke="#0f8a72" stroke-width="1.8" stroke-linecap="round"/></svg>
+        </div>
+        <h3>Полное сопровождение</h3>
+        <p>От первых расчётов до защиты документа перед комиссией, банком или инвестором — довожу проект до решения, а не до файла.</p>
+      </div>
+      <div class="adv">
+        <div class="adv__icon">
+          <svg width="40" height="40" viewBox="0 0 40 40" fill="none"><rect width="40" height="40" rx="10" fill="#e3f5f0"/><rect x="11" y="14" width="18" height="14" rx="2" stroke="#0f8a72" stroke-width="2"/><path d="M15 14v-3a5 5 0 0110 0v3" stroke="#0f8a72" stroke-width="2"/></svg>
+        </div>
+        <h3>Конфиденциальность</h3>
+        <p>Работаю с вашими цифрами лично, без передачи третьим лицам. Все материалы и расчёты остаются строго между нами.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- УСЛУГИ -->
+<section class="services" id="services">
+  <div class="container">
+    <h2 class="section-title">Услуги</h2>
+    <p class="section-sub">От первой диагностики до готовых документов, с которыми можно идти к банку или инвестору.</p>
+    <div class="srv-grid">
+      <div class="srv">
+        <div class="srv__icon">
+          <svg width="36" height="36" viewBox="0 0 36 36" fill="none"><path d="M6 28l7-11 5 6 5-7 7 12H6z" fill="#0f8a72" opacity=".85"/></svg>
+        </div>
+        <h3>Составление бизнес-плана</h3>
+        <p>Полный пакет для инвестора, банка или Фонда поддержки предпринимательства: анализ рынка, финмодель, окупаемость, риски.</p>
+        <div class="srv__price">от 50 000 ₽</div>
+      </div>
+      <div class="srv">
+        <div class="srv__icon">
+          <svg width="36" height="36" viewBox="0 0 36 36" fill="none"><path d="M6 28V18M14 28V12M22 28V16M30 28V8" stroke="#0f8a72" stroke-width="2.4" stroke-linecap="round"/></svg>
+        </div>
+        <h3>Финансовая модель</h3>
+        <p>Расчёт доходов и расходов, cash flow, точки безубыточности. Сценарии: оптимистичный, базовый, пессимистичный.</p>
+        <div class="srv__price">от 25 000 ₽</div>
+      </div>
+      <div class="srv">
+        <div class="srv__icon">
+          <svg width="36" height="36" viewBox="0 0 36 36" fill="none"><rect x="6" y="8" width="24" height="18" rx="2" stroke="#0f8a72" stroke-width="2"/><path d="M11 14h14M11 19h9" stroke="#0f8a72" stroke-width="1.8" stroke-linecap="round"/></svg>
+        </div>
+        <h3>Инвестиционная презентация</h3>
+        <p>Питч-дек для инвесторов и банков: цифры, аргументы и визуал, которые доносят суть проекта за 5 минут.</p>
+        <div class="srv__price">от 30 000 ₽</div>
+      </div>
+      <div class="srv">
+        <div class="srv__icon">
+          <svg width="36" height="36" viewBox="0 0 36 36" fill="none"><circle cx="18" cy="18" r="11" stroke="#0f8a72" stroke-width="2"/><path d="M18 12v6l4 3" stroke="#0f8a72" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+        <h3>AI-ассистенты для бизнеса</h3>
+        <p>Настройка AI-инструментов под ваши задачи: финотчётность, аналитика, автоматизация рутинных расчётов.</p>
+        <div class="srv__price">от 25 000 ₽</div>
+      </div>
+      <div class="srv">
+        <div class="srv__icon">
+          <svg width="36" height="36" viewBox="0 0 36 36" fill="none"><circle cx="18" cy="14" r="6" fill="#e3f5f0" stroke="#0f8a72" stroke-width="2"/><path d="M8 30c0-5.5 4.5-10 10-10s10 4.5 10 10" stroke="#0f8a72" stroke-width="2" fill="none"/></svg>
+        </div>
+        <h3>Финансовый консалтинг</h3>
+        <p>Разбор текущей ситуации, независимая экспертиза, поиск точек роста и слабых мест в финансах бизнеса.</p>
+        <div class="srv__price">от 5 000 ₽/час</div>
+      </div>
+      <div class="srv">
+        <div class="srv__icon">
+          <svg width="36" height="36" viewBox="0 0 36 36" fill="none"><circle cx="18" cy="18" r="11" stroke="#0f8a72" stroke-width="2"/><path d="M13 18l3.5 3.5L23 15" stroke="#0f8a72" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+        <h3>Экспресс-диагностика</h3>
+        <p>Бесплатная 30-минутная встреча: разбираем задачу и вводные, определяем нужный формат работы и стоимость.</p>
+        <div class="srv__price">бесплатно</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ПРАЙС -->
+<section class="price" id="price">
+  <div class="container">
+    <h2 class="section-title">Прайс-лист</h2>
+    <p class="section-sub">Базовые тарифы на услуги. Итоговая стоимость зависит от масштаба и сложности проекта.</p>
+    <div class="price-table">
+      <div class="price-row price-row--head">
+        <span>Услуга</span>
+        <span>Стоимость</span>
+      </div>
+      <div class="price-row">
+        <span>Экспресс-диагностика бизнеса (30 мин)</span>
+        <span class="price-row__val">Бесплатно</span>
+      </div>
+      <div class="price-row">
+        <span>Составление бизнес-плана</span>
+        <span class="price-row__val">от 50 000 ₽</span>
+      </div>
+      <div class="price-row">
+        <span>Составление финансовой модели</span>
+        <span class="price-row__val">от 25 000 ₽</span>
+      </div>
+      <div class="price-row">
+        <span>Инвестиционная презентация</span>
+        <span class="price-row__val">от 30 000 ₽</span>
+      </div>
+      <div class="price-row">
+        <span>AI-ассистент для бизнеса</span>
+        <span class="price-row__val">от 25 000 ₽</span>
+      </div>
+      <div class="price-row">
+        <span>Финансовый консалтинг (почасово)</span>
+        <span class="price-row__val">5 000 ₽/час</span>
+      </div>
+      <div class="price-row">
+        <span>Комплекс «Бизнес-план + Финмодель»</span>
+        <span class="price-row__val">от 65 000 ₽</span>
+      </div>
+    </div>
+    <div class="price-note">
+      Комплекс «Бизнес-план + Финмодель» — ориентировочная пакетная цена, уточняется при обсуждении задачи. Точная стоимость всех услуг фиксируется до старта работ.
+    </div>
+  </div>
+</section>
+
+<!-- ПРОЦЕСС -->
+<section class="process" id="process">
+  <div class="container">
+    <h2 class="section-title">Как проходит работа</h2>
+    <p class="section-sub">Прозрачный процесс без размытых сроков и сюрпризов в стоимости.</p>
+    <div class="steps">
+      <div class="step">
+        <div class="step__num">01</div>
+        <h3>Заявка и знакомство</h3>
+        <p>Созвон или переписка: разбираем вашу задачу и вводные данные.</p>
+      </div>
+      <div class="step">
+        <div class="step__num">02</div>
+        <h3>Экспресс-диагностика</h3>
+        <p>Бесплатная встреча 30 минут: определяем формат работы, сроки и стоимость.</p>
+      </div>
+      <div class="step">
+        <div class="step__num">03</div>
+        <h3>Сбор данных</h3>
+        <p>Вы передаёте вводные и отчётность, я готовлю техническое задание.</p>
+      </div>
+      <div class="step">
+        <div class="step__num">04</div>
+        <h3>Расчёт и разработка</h3>
+        <p>Строю финмодель, бизнес-план или презентацию, использую AI для ускорения рутинных расчётов.</p>
+      </div>
+      <div class="step">
+        <div class="step__num">05</div>
+        <h3>Защита и передача</h3>
+        <p>Прохожу с вами по документу, вношу правки, передаю финальные файлы и рекомендации.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ОБ ЭКСПЕРТЕ -->
+<section class="about" id="about">
+  <div class="container about__inner">
+    <div class="about__text">
+      <h2 class="section-title section-title--left">30 лет в финансах — от банков до агрохолдингов</h2>
+      <p>Карьера прошла по обе стороны стола: работал финансовым аналитиком в банках и инвестиционных компаниях, где оценивал чужие бизнес-планы и инвестпроекты, и в крупных региональных агрохолдингах, где строил финансовые модели изнутри реального бизнеса.</p>
+      <p>Сегодня этот опыт работает на вас: я знаю, какие цифры и аргументы убеждают банк выдать кредит, инвестора — вложиться, а фонд поддержки предпринимательства — одобрить грант. И я использую AI-инструменты, чтобы делать это быстрее и доступнее по цене.</p>
+      <div class="about__badges">
+        <span class="about__badge">Банки</span>
+        <span class="about__badge">Инвестиционные компании</span>
+        <span class="about__badge">Агрохолдинги</span>
+      </div>
+    </div>
+    <div class="reviews-mini">
+      <div class="review">
+        <div class="review__stars">★★★★★</div>
+        <p>«Нужен был бизнес-план для банка под кредитную линию — получил документ, который выдержал все вопросы кредитного комитета с первого раза.»</p>
+        <div class="review__author">
+          <div class="review__avatar">ИП</div>
+          <div>
+            <strong>Владелец бизнеса</strong>
+            <span>сфера АПК</span>
+          </div>
+        </div>
+      </div>
+      <div class="review">
+        <div class="review__stars">★★★★★</div>
+        <p>«Финансовая модель показала, что часть направлений убыточна — пересмотрели план и сохранили деньги ещё до старта проекта.»</p>
+        <div class="review__author">
+          <div class="review__avatar">ГД</div>
+          <div>
+            <strong>Генеральный директор</strong>
+            <span>малый бизнес</span>
+          </div>
+        </div>
+      </div>
+      <p class="reviews-mini__note">Отзывы — иллюстративные примеры формата работы, будут заменены на реальные по мере поступления.</p>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="faq" id="faq">
+  <div class="container">
+    <h2 class="section-title">Частые вопросы</h2>
+    <div class="faq-list">
+      <details class="faq__item">
+        <summary>Зачем бизнес-план, если я не планирую привлекать инвестора?</summary>
+        <p>Бизнес-план — это в первую очередь инструмент для вас самих: он показывает, окупится ли идея, где риски и сколько денег реально понадобится. Даже без внешнего финансирования это экономит деньги на ошибках.</p>
+      </details>
+      <details class="faq__item">
+        <summary>Подходит ли бизнес-план для гранта или субсидии?</summary>
+        <p>Да, делаю бизнес-планы под требования банков, Фондов поддержки предпринимательства и грантовых программ — с учётом их формата и критериев оценки.</p>
+      </details>
+      <details class="faq__item">
+        <summary>Сколько времени занимает разработка финансовой модели?</summary>
+        <p>Зависит от сложности и объёма исходных данных — от нескольких дней до 2–3 недель. Точный срок называю после экспресс-диагностики.</p>
+      </details>
+      <details class="faq__item">
+        <summary>Что такое «AI-ассистент для бизнеса» и зачем он мне?</summary>
+        <p>Это настроенный под вашу компанию AI-инструмент: помогает с финансовой отчётностью, аналитикой и рутинными расчётами, экономит часы ручной работы вашей команды.</p>
+      </details>
+      <details class="faq__item">
+        <summary>Работаете ли вы с агрохолдингами и крупным бизнесом?</summary>
+        <p>Да, есть опыт работы в крупных региональных агрохолдингах — понимаю специфику сезонности, субсидий и длинных производственных циклов в АПК.</p>
+      </details>
+      <details class="faq__item">
+        <summary>Как проходит оплата, нужна ли предоплата?</summary>
+        <p>Условия оплаты обсуждаются индивидуально после экспресс-диагностики и согласования объёма работ. Обычно — часть до старта, остаток по факту сдачи.</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- ФОРМА + КОНТАКТЫ -->
+<section class="contact-section" id="contacts">
+  <div class="container">
+    <div class="contact-grid">
+      <div class="form-wrap" id="form">
+        <h2>Обсудить задачу</h2>
+        <p class="form-sub">Оставьте заявку — свяжусь в течение рабочего дня, чтобы назначить бесплатную экспресс-диагностику.</p>
+        <form id="leadForm" novalidate>
+          <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off">
+          <div class="form-row">
+            <label>Ваше имя *</label>
+            <input type="text" name="name" placeholder="Иван Иванов" required>
+          </div>
+          <div class="form-row">
+            <label>Телефон или Telegram *</label>
+            <input type="text" name="contact" placeholder="+7 (___) ___-__-__ или @username" required>
+          </div>
+          <div class="form-row">
+            <label>Компания</label>
+            <input type="text" name="company" placeholder="ООО «Ваша Компания»">
+          </div>
+          <div class="form-row">
+            <label>Какая услуга интересует</label>
+            <textarea name="comment" rows="3" placeholder="Бизнес-план, финмодель, инвестпрезентация, AI-ассистент или консалтинг"></textarea>
+          </div>
+          <button type="submit" class="btn btn--primary btn--block">Отправить заявку</button>
+          <p class="form-agree">Нажимая кнопку, вы соглашаетесь на обработку персональных данных</p>
+        </form>
+      </div>
+      <div class="contacts-info">
+        <h2>Контакты</h2>
+        <div class="contact-card">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M22 2L11 13" stroke="#0f8a72" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M22 2L15 22l-4-9-9-4 20-7z" stroke="#0f8a72" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <div>
+            <strong>Telegram</strong>
+            <a href="https://t.me/Black_Box_Biz" target="_blank" rel="noopener">@Black_Box_Biz</a>
+          </div>
+        </div>
+        <div class="contact-card">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="#0f8a72" stroke-width="2"/><path d="M12 7v5l3 3" stroke="#0f8a72" stroke-width="2" stroke-linecap="round"/></svg>
+          <div>
+            <strong>AI-чат-бот</strong>
+            <a href="https://t.me/Maker_AI_bot" target="_blank" rel="noopener">@Maker_AI_bot</a>
+          </div>
+        </div>
+        <div class="contact-card">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><rect x="3" y="5" width="18" height="14" rx="2" stroke="#0f8a72" stroke-width="2"/><path d="M3 8l9 6 9-6" stroke="#0f8a72" stroke-width="2"/></svg>
+          <div>
+            <strong>Сайт</strong>
+            <a href="https://www.bizplanexpert.ru" target="_blank" rel="noopener">www.bizplanexpert.ru</a>
+          </div>
+        </div>
+        <div class="contact-card">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="#0f8a72" stroke-width="2"/><path d="M8 12l3 3 5-6" stroke="#0f8a72" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <div>
+            <strong>Формат работы</strong>
+            <span>Удалённо, по всей России</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container footer__inner">
+    <a href="#" class="logo">
+      <span class="logo__icon">
+        <svg width="28" height="28" viewBox="0 0 32 32" fill="none"><rect width="32" height="32" rx="8" fill="#0f8a72"/><path d="M8 23V17M14 23V13M20 23V16M26 23V9" stroke="#fff" stroke-width="2.4" stroke-linecap="round"/></svg>
+      </span>
+      <span class="logo__text">BizPlan<span class="logo__accent">Expert</span></span>
+    </a>
+    <nav class="footer__nav">
+      <a href="#services">Услуги</a>
+      <a href="#price">Прайс</a>
+      <a href="#faq">FAQ</a>
+      <a href="#contacts">Контакты</a>
+    </nav>
+    <p class="footer__copy">&copy; <span id="year"></span> BizPlan Expert. Все права защищены.</p>
+  </div>
+</footer>
+
+<!-- FAB -->
+<div class="fab-group">
+  <a href="https://t.me/Black_Box_Biz" class="fab fab--tg" target="_blank" rel="noopener" aria-label="Telegram">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M22 2L11 13" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M22 2L15 22l-4-9-9-4 20-7z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+  </a>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
