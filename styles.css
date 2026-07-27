@@ -70,9 +70,10 @@ img { max-width: 100%; }
 .hero__sub { font-size: 17px; color: var(--text-muted); max-width: 540px; margin-bottom: 32px; line-height: 1.7; }
 .hero__btns { display: flex; gap: 14px; flex-wrap: wrap; margin-bottom: 40px; }
 .hero__stats { display: flex; gap: 32px; flex-wrap: wrap; }
-.stat { display: flex; flex-direction: column; max-width: 160px; }
+.stat { display: flex; flex-direction: column; max-width: 170px; }
 .stat__num { font-family: 'Manrope', sans-serif; font-size: 32px; font-weight: 800; color: var(--navy); line-height: 1; }
-.stat__lbl { font-size: 13px; color: var(--text-muted); margin-top: 4px; }
+.stat__pfx, .stat__sfx { font-family: 'Manrope', sans-serif; font-size: 24px; font-weight: 800; color: var(--navy); display: inline; }
+.stat__lbl { font-size: 13px; color: var(--text-muted); margin-top: 4px; display: block; }
 
 /* HERO CARD */
 .hero__card { background: #fff; border: 1px solid var(--border); border-radius: 20px; padding: 36px 32px; box-shadow: var(--shadow-md); }
@@ -131,14 +132,12 @@ img { max-width: 100%; }
 .about__badges { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 24px; }
 .about__badge { font-size: 13px; font-weight: 600; color: var(--teal); background: var(--teal-light); padding: 8px 16px; border-radius: 20px; }
 .reviews-mini { display: flex; flex-direction: column; gap: 20px; }
-.review { background: var(--bg2); border: 1px solid var(--border); border-radius: var(--radius); padding: 28px 26px; }
-.review__stars { color: var(--teal); font-size: 17px; margin-bottom: 12px; letter-spacing: 2px; }
-.review p { font-size: 14px; color: var(--text); line-height: 1.7; font-style: italic; margin-bottom: 18px; }
-.review__author { display: flex; align-items: center; gap: 12px; }
-.review__avatar { width: 42px; height: 42px; border-radius: 50%; background: var(--navy); color: #fff; display: flex; align-items: center; justify-content: center; font-family: 'Manrope', sans-serif; font-weight: 700; font-size: 13px; flex-shrink: 0; }
-.review__author strong { display: block; font-size: 14px; font-weight: 700; }
-.review__author span { font-size: 12px; color: var(--text-muted); }
-.reviews-mini__note { font-size: 12px; color: var(--text-muted); text-align: center; margin-top: 4px; }
+.reviews-mini__card { background: var(--bg2); border: 1px solid var(--border); border-radius: var(--radius); padding: 28px 26px; }
+.reviews-mini__icon { margin-bottom: 14px; }
+.reviews-mini__card h3 { font-family: 'Manrope', sans-serif; font-size: 16px; font-weight: 700; margin-bottom: 10px; color: var(--text); }
+.reviews-mini__card p { font-size: 14px; color: var(--text-muted); line-height: 1.7; }
+.reviews-mini__card a { color: var(--teal); font-weight: 600; }
+.reviews-mini__card a:hover { text-decoration: underline; }
 
 /* FAQ */
 .faq { padding: 88px 0; background: var(--bg3); }
@@ -184,6 +183,7 @@ img { max-width: 100%; }
 .fab { width: 52px; height: 52px; border-radius: 50%; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 16px rgba(0,0,0,.2); transition: transform .2s, box-shadow .2s; }
 .fab:hover { transform: scale(1.1); box-shadow: 0 6px 24px rgba(0,0,0,.3); }
 .fab--tg { background: #0088cc; }
+.fab--wa { background: #25d366; }
 
 /* REVEAL */
 .reveal { opacity: 0; transform: translateY(28px); transition: opacity .55s ease, transform .55s ease; }

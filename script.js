@@ -94,7 +94,7 @@
 
   // Reveal on scroll
   const targets = document.querySelectorAll(
-    '.adv, .srv, .step, .review, .faq__item, .form-wrap, .contacts-info, .hero__card, .about__text'
+    '.adv, .srv, .step, .reviews-mini__card, .faq__item, .form-wrap, .contacts-info, .hero__card, .about__text'
   );
   targets.forEach(el => el.classList.add('reveal'));
   const io = new IntersectionObserver(entries => {
