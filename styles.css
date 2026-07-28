@@ -71,8 +71,8 @@ img { max-width: 100%; }
 .hero__btns { display: flex; gap: 14px; flex-wrap: wrap; margin-bottom: 40px; }
 .hero__stats { display: flex; gap: 32px; flex-wrap: wrap; }
 .stat { display: flex; flex-direction: column; max-width: 170px; }
-.stat__num { font-family: 'Manrope', sans-serif; font-size: 32px; font-weight: 800; color: var(--navy); line-height: 1; }
-.stat__pfx, .stat__sfx { font-family: 'Manrope', sans-serif; font-size: 24px; font-weight: 800; color: var(--navy); display: inline; }
+.stat__value { font-family: 'Manrope', sans-serif; font-size: 32px; font-weight: 800; color: var(--navy); line-height: 1; white-space: nowrap; }
+.stat__num { font-size: inherit; font-weight: inherit; color: inherit; }
 .stat__lbl { font-size: 13px; color: var(--text-muted); margin-top: 4px; display: block; }
 
 /* HERO CARD */
